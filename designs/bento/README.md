@@ -11,7 +11,7 @@
 <br />
 
 <a href="https://github.com/konka0812"><img src="https://img.shields.io/badge/GitHub-konka0812-A78BFA?style=flat-square&labelColor=1A1B22&logo=github&logoColor=F8FAFC" alt="GitHub" /></a>
-<a href="https://github.com/konka0812?tab=repositories"><img src="https://img.shields.io/badge/开源仓库-22-F472B6?style=flat-square&labelColor=1A1B22" alt="22 个开源仓库" /></a>
+<a href="https://github.com/konka0812?tab=repositories"><img src="https://img.shields.io/badge/开源仓库-12-F472B6?style=flat-square&labelColor=1A1B22" alt="12 个开源仓库" /></a>
 <a href="https://github.com/konka0812?tab=stars"><img src="https://img.shields.io/badge/收获星星-14-60A5FA?style=flat-square&labelColor=1A1B22" alt="14 颗星" /></a>
 <img src="https://img.shields.io/badge/坐标-郑州-34D399?style=flat-square&labelColor=1A1B22" alt="郑州" />
 
@@ -83,24 +83,24 @@ Three.js、九宫格分镜、时间停止小游戏。
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-0B0C10?style=flat-square&logo=threedotjs&logoColor=F8FAFC)
-![VueUse](https://img.shields.io/badge/VueUse-41B883?style=flat-square&logo=vuedotjs&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=0B0C10)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
+![Canvas](https://img.shields.io/badge/Canvas-60A5FA?style=flat-square)
 
 **Agent 与后端 / AGENT & BACKEND**
 
-![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=openai&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-A78BFA?style=flat-square&logo=modelcontextprotocol&logoColor=0B0C10)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0B0C10?style=flat-square&logoColor=F8FAFC)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=0B0C10)
 
 **工程与工具 / TOOLING**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-0B0C10?style=flat-square&logo=vercel&logoColor=F8FAFC)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logoColor=white)
 
 </div>
 
@@ -173,7 +173,7 @@ PawTrader 桌面宠物行情助手 · 盯盘也有陪伴
 </tr>
 </table>
 
-<div align="center"><sub><a href="https://github.com/konka0812?tab=repositories">还有 16 个仓库在架上 →</a></sub></div>
+<div align="center"><sub><a href="https://github.com/konka0812?tab=repositories">还有 6 个仓库在架上 →</a></sub></div>
 
 <br />
 
@@ -183,12 +183,7 @@ PawTrader 桌面宠物行情助手 · 盯盘也有陪伴
 
 <div align="center">
 
-<img src="./assets/stat-strip.svg" width="1000" alt="22 个开源仓库 · 14 颗星 · JavaScript/Python/TypeScript/Vue" />
-
-<br /><br />
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=konka0812&show_icons=true&hide_border=true&title_color=A78BFA&icon_color=F472B6&text_color=94A3B8&bg_color=0B0C10" alt="konka0812 的 GitHub 统计" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konka0812&layout=compact&hide_border=true&title_color=A78BFA&text_color=94A3B8&bg_color=0B0C10&langs_count=8" alt="常用语言" />
+<img src="./assets/stat-strip.svg" width="1000" alt="12 个公开仓库 · 14 颗星 · 语言分布 JavaScript 46% / Python 14% / CSS 14% / Vue 11%" />
 
 </div>
 
@@ -211,11 +206,11 @@ PawTrader 桌面宠物行情助手 · 盯盘也有陪伴
 </td>
 <td width="33%" align="center" valign="top">
 
-**✉️ Email**
+**💬 Issues**
 
-`konka0812@example.com`
+[开一个 Issue](https://github.com/konka0812)
 
-<sub>占位地址 · 换成你的真实邮箱</sub>
+<sub>比邮件更快，我都会看到</sub>
 
 </td>
 <td width="33%" align="center" valign="top">
@@ -241,6 +236,6 @@ UTC+8 · 随时欢迎聊 Agent
 
 <img src="https://img.shields.io/badge/Thanks_for_scrolling-🏀-A78BFA?style=flat-square&labelColor=1A1B22" alt="Thanks for scrolling" />
 
-<sub>BENTO 设计 · 玻璃便当格 · 全部视觉由 <code>./assets/*.svg</code> 手写渲染</sub>
+<sub>郑州 · UTC+8 · 2026</sub>
 
 </div>

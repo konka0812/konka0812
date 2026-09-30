@@ -27,14 +27,14 @@
   </g>
   <g>
     <text x="22" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">SOURCE</text>
-    <text x="22" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">README-STATS</text>
-    <text x="22" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">github-readme-stats.vercel.app</text>
+    <text x="22" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">GITHUB API</text>
+    <text x="22" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">api.github.com · rest v3</text>
     <rect x="22" y="104" width="196" height="3" fill="#12304A"/>
     <rect x="22" y="104" width="141.12" height="3" fill="#38BDF8" opacity="0.75"/>
     <line x1="240" y1="14" x2="240" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
-    <text x="262" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">CACHE</text>
-    <text x="262" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">≈ 24 H</text>
-    <text x="262" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">edge render · auto refresh</text>
+    <text x="262" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">DEPENDS</text>
+    <text x="262" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">NONE</text>
+    <text x="262" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">static svg · no third party</text>
     <rect x="262" y="104" width="196" height="3" fill="#12304A"/>
     <rect x="262" y="104" width="88.2" height="3" fill="#38BDF8" opacity="0.75"/>
     <line x1="480" y1="14" x2="480" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>

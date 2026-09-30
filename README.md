@@ -64,7 +64,7 @@
 **AI · AGENT**
 
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-0F1526?style=flat-square&logoColor=4D6BFE)
-![OpenAI](https://img.shields.io/badge/OpenAI-0F1526?style=flat-square&logo=openai&logoColor=E2E8FF)
+![OpenAI](https://img.shields.io/badge/OpenAI-0F1526?style=flat-square&logoColor=E2E8FF)
 ![AI Agent](https://img.shields.io/badge/AI%20Agent-0F1526?style=flat-square&logo=probot&logoColor=34D399)
 
 </div>
@@ -95,9 +95,7 @@
 <h2 align="center">数据 · STATS</h2>
 
 <div align="center">
-  <img height="162" src="https://github-readme-stats.vercel.app/api?username=konka0812&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=818CF8&icon_color=34D399&text_color=94A3B8&bg_color=0B1020&border_radius=14" alt="konka0812 的 GitHub 统计" />
-  &nbsp;&nbsp;
-  <img height="162" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konka0812&layout=compact&hide_border=true&langs_count=8&title_color=818CF8&text_color=94A3B8&bg_color=0B1020&border_radius=14" alt="常用语言分布" />
+  <img src="./assets/stats.svg" width="100%" alt="konka0812 的 GitHub 数据：12 个公开仓库 · 14 累计 Star · 120 次年度贡献 · 7 个活跃仓库；语言分布 JavaScript 45.5% / Python 13.7% / CSS 13.6% / Vue 11.3% / TypeScript 6.1% / Rust 5.9%" />
 </div>
 
 <div align="center">

@@ -31,9 +31,9 @@
     <text x="24" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#38BDF8">@konka0812</text>
     <text x="24" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">github.com/konka0812</text>
     <line x1="400" y1="12" x2="400" y2="96" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
-    <text x="424" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">EMAIL / 邮箱</text>
-    <text x="424" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#CBD5E1">konka0812@example.com</text>
-    <text x="424" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">占位 — PLACEHOLDER, REPLACE ME</text>
+    <text x="424" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">ISSUES / 提问</text>
+    <text x="424" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#38BDF8">OPEN</text>
+    <text x="424" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">any repo · 1-2 day reply</text>
     <line x1="800" y1="12" x2="800" y2="96" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
     <text x="824" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">LOCATION / 坐标</text>
     <text x="824" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#CBD5E1">郑州 ZHENGZHOU</text>

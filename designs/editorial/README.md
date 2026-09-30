@@ -43,9 +43,9 @@
 | &nbsp; | 项目 &nbsp;/&nbsp; REPOSITORY | 一句话 &nbsp;/&nbsp; NOTE |
 | :--: | :-- | :-- |
 | `01` | **[lianleme](https://github.com/konka0812/lianleme)** | 练了么 · 302 个标准健身动作的开源 PWA 图鉴 |
-| `02` | **[deepseek-harness-deployment-guide](https://github.com/konka0812/deepseek-harness-deployment-guide)** | DeepSeek Harness 公网部署教程 · 8★ |
-| `03` | **[deepseek-harness-deployment-plug](https://github.com/konka0812/deepseek-harness-deployment-plug)** | 公网暴露插件 · 4★ |
-| `04` | **[nine-grid-storyboard](https://github.com/konka0812/nine-grid-storyboard)** | 3×3 分镜关键帧图与图生视频提示词 · 2★ |
+| `02` | **[deepseek-harness-deployment-guide](https://github.com/konka0812/deepseek-harness-deployment-guide)** | DeepSeek Harness 公网部署教程 · 8 stars |
+| `03` | **[deepseek-harness-deployment-plug](https://github.com/konka0812/deepseek-harness-deployment-plug)** | 公网暴露插件 · 4 stars |
+| `04` | **[nine-grid-storyboard](https://github.com/konka0812/nine-grid-storyboard)** | 3×3 分镜关键帧图与图生视频提示词 · 2 stars |
 | `05` | **[time-freeze-game](https://github.com/konka0812/time-freeze-game)** | 你不动，时间就停 · Superhot-like 2D 网页游戏 |
 | `06` | **[stock-monitor-pet](https://github.com/konka0812/stock-monitor-pet)** | PawTrader 桌面宠物行情助手 |
 
@@ -54,9 +54,7 @@
 ## 04 &nbsp;·&nbsp; 数据 <sub>NUMBERS</sub>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=konka0812&amp;show_icons=true&amp;hide_border=true&amp;title_color=14110F&amp;icon_color=B3402E&amp;text_color=4A423B&amp;bg_color=FAF7F2" height="168" alt="konka0812 的 GitHub 统计" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=konka0812&amp;layout=compact&amp;hide_border=true&amp;title_color=14110F&amp;text_color=4A423B&amp;bg_color=FAF7F2&amp;langs_count=6" height="168" alt="常用语言" />
+  <img src="./assets/stats.svg" width="1000" alt="konka0812 的 GitHub 数据：12 个公开仓库 · 14 累计 Star · 120 次年度贡献 · 7 个活跃仓库；语言分布 JavaScript 45.5% / Python 13.7% / CSS 13.6% / Vue 11.3% / TypeScript 6.1% / Rust 5.9%" />
 </div>
 
 <br />
@@ -69,9 +67,7 @@
 
 ## 05 &nbsp;·&nbsp; 联系 <sub>CONTACT</sub>
 
-写邮件 &nbsp;·&nbsp; `konka0812@example.com` &nbsp;<sub>占位，替换成你自己的</sub>
-<br />
-在 GitHub 找我 &nbsp;·&nbsp; [@konka0812](https://github.com/konka0812)
+在 GitHub 找我 &nbsp;·&nbsp; [@konka0812](https://github.com/konka0812) &nbsp;·&nbsp; 开一个 Issue，我都会看到
 
 <br />
 
