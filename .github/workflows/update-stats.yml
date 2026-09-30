@@ -1,0 +1,46 @@
+name: Update profile stats card
+
+# Regenerates assets/stats.svg from live GitHub data.
+# The card is committed as a static SVG, so the profile never depends on a
+# third-party renderer at page-view time (github-readme-stats' public instance
+# is currently DEPLOYMENT_PAUSED and would show up as a broken image).
+
+on:
+  schedule:
+    # 03:17 UTC every Monday — off the hour to avoid the cron stampede
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Regenerate stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain assets/stats.svg)" ]; then
+            echo "stats.svg unchanged — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git commit -m "chore(stats): refresh stats card [skip ci]"
+          git push
