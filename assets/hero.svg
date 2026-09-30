@@ -165,9 +165,9 @@
   <text x="24" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1" fill="#5C7A96" opacity="0.85">UNITS px</text>
   <text x="1176" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="end" letter-spacing="1" fill="#5C7A96" opacity="0.85">GRID 20 / 100</text>
   <rect x="44" y="54.2" width="15" height="1.8" fill="#38BDF8" opacity="0.9"/>
-  <text x="68" y="59" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11" letter-spacing="2.6" fill="#7D96AF">AI AGENT TOOLCHAIN · FULL-STACK WEB · PWA · THREE.JS</text>
+  <text x="68" y="59" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11" letter-spacing="2.6" fill="#7D96AF">FULL-STACK WEB · PWA · DESKTOP · AI TOOLING</text>
   <text x="34" y="178" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="148" font-weight="700" letter-spacing="9" fill="url(#bp-ink)">konka</text>
-  <text x="44" y="212" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="19" letter-spacing="1.6" fill="#CBD5E1">AI Agent 工具链 · 全栈 Web · PWA</text>
+  <text x="44" y="212" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="19" letter-spacing="1.6" fill="#CBD5E1">全栈 Web · PWA · 桌面端 · AI 工具</text>
   <line x1="44" y1="220" x2="44" y2="238" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
     <line x1="483" y1="220" x2="483" y2="238" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
     <line x1="44" y1="234" x2="483" y2="234" stroke="#38BDF8" stroke-width="0.9" opacity="0.6"/>
