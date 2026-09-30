@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="152" viewBox="0 0 1200 152" role="img" aria-label="contact title block">
+  <defs>
+    <linearGradient id="ct-bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#06121F"/>
+      <stop offset="1" stop-color="#0A1B2E"/>
+    </linearGradient>
+    <pattern id="ct-gf" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1E4B6B" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="ct-gc" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1E4B6B" stroke-width="1"/>
+    </pattern>
+    <filter id="ct-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="152" fill="url(#ct-bg)"/>
+  <rect width="1200" height="152" fill="url(#ct-gf)" opacity="0.3"/>
+  <rect width="1200" height="152" fill="url(#ct-gc)" opacity="0.55"/>
+  <rect x="0.5" y="0.5" width="1199" height="151" fill="none" stroke="#1E4B6B" stroke-width="1" opacity="0.9"/>
+  <g stroke="#38BDF8" stroke-width="1.6" fill="none" opacity="0.85" stroke-linecap="square">
+    <path d="M12 32 V12 H32" fill="none"/>
+    <path d="M1168 12 H1188 V32" fill="none"/>
+    <path d="M12 120 V140 H32" fill="none"/>
+    <path d="M1168 140 H1188 V120" fill="none"/>
+  </g>
+  <line x1="12" y1="100" x2="1188" y2="100" stroke="#1E4B6B" stroke-width="1" opacity="0.7"/>
+  <g>
+    <text x="24" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">GITHUB / 代码</text>
+    <text x="24" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#38BDF8">@konka0812</text>
+    <text x="24" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">github.com/konka0812</text>
+    <line x1="400" y1="12" x2="400" y2="96" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
+    <text x="424" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">EMAIL / 邮箱</text>
+    <text x="424" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#CBD5E1">konka0812@example.com</text>
+    <text x="424" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">占位 — PLACEHOLDER, REPLACE ME</text>
+    <line x1="800" y1="12" x2="800" y2="96" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
+    <text x="824" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">LOCATION / 坐标</text>
+    <text x="824" y="68" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" letter-spacing="1.2" fill="#CBD5E1">郑州 ZHENGZHOU</text>
+    <text x="824" y="88" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#7D96AF">34.75°N 113.63°E · UTC+8</text>
+    <text x="24" y="118" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="1.4" fill="#5C7A96">DRAWN / 绘制</text>
+    <text x="24" y="136" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">konka</text>
+    <line x1="300" y1="100" x2="300" y2="142" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
+    <text x="324" y="118" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="1.4" fill="#5C7A96">CHECKED / 校核</text>
+    <text x="324" y="136" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">konka</text>
+    <line x1="600" y1="100" x2="600" y2="142" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
+    <text x="624" y="118" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="1.4" fill="#5C7A96">APPROVED / 批准</text>
+    <text x="624" y="136" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">konka</text>
+    <line x1="900" y1="100" x2="900" y2="142" stroke="#1E4B6B" stroke-width="1" opacity="0.55"/>
+    <text x="924" y="118" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="1.4" fill="#5C7A96">SHEET / 图幅</text>
+    <text x="924" y="136" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#38BDF8">05 / 05</text>
+  </g>
+  <rect width="1200" height="152" filter="url(#ct-grain)" opacity="0.045"/>
+</svg>

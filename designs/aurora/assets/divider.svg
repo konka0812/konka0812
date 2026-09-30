@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="18" viewBox="0 0 800 18" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="d-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#818CF8" stop-opacity="0.75"/>
+      <stop offset="0.7" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="d-glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect x="60" y="8.3" width="680" height="1.4" rx="0.7" fill="url(#d-line)"/>
+  <circle cx="400" cy="9" r="3.2" fill="#818CF8" opacity="0.5" filter="url(#d-glow)"/>
+  <circle cx="400" cy="9" r="1.9" fill="#C7D2FE"/>
+</svg>

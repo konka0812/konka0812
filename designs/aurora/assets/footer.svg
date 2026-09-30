@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="一句值得重复的箴言，其实离一句无意义的空话并不遥远。">
+  <defs>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080A14"/>
+      <stop offset="1" stop-color="#0B0E1C"/>
+    </linearGradient>
+    <linearGradient id="f-top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#34D399" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="0.75" stop-color="#818CF8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="f-glow1"><stop offset="0" stop-color="#6366F1" stop-opacity="0.42"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="f-glow2"><stop offset="0" stop-color="#10B981" stop-opacity="0.30"/><stop offset="1" stop-color="#10B981" stop-opacity="0"/></radialGradient>
+    <radialGradient id="f-glow3"><stop offset="0" stop-color="#EC4899" stop-opacity="0.24"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+    <filter id="f-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="f-clip"><rect width="1200" height="176" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#f-clip)">
+    <rect width="1200" height="176" fill="url(#f-bg)"/>
+    <ellipse cx="240" cy="176" rx="430" ry="120" fill="url(#f-glow2)"/>
+    <ellipse cx="700" cy="196" rx="480" ry="130" fill="url(#f-glow1)"/>
+    <ellipse cx="1080" cy="180" rx="300" ry="100" fill="url(#f-glow3)"/>
+    <rect width="1200" height="176" filter="url(#f-grain)" opacity="0.035"/>
+    <rect x="0" y="0" width="1200" height="1.4" fill="url(#f-top)"/>
+
+    <text x="600" y="76" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+          font-size="18" fill="#94A3B8">一句值得重复的箴言，其实离一句无意义的空话并不遥远。</text>
+
+    <rect x="520" y="98" width="160" height="1" fill="#334155" opacity="0.7"/>
+
+    <text x="600" y="128" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="3" fill="#475569">© 2026 KONKA · ZHENGZHOU, CHINA</text>
+  </g>
+</svg>

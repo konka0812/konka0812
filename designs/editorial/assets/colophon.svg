@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="158" viewBox="0 0 1200 158" role="img" aria-label="数字一览 — 302 标准健身动作 / 08 部署教程星标 / 04 公网插件星标 / 3×3 分镜关键帧">
+  <defs>
+    <linearGradient id="cl-paper" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FAF7F2"/>
+      <stop offset="0.6" stop-color="#F8F4ED"/>
+      <stop offset="1" stop-color="#F1E9DC"/>
+    </linearGradient>
+    <radialGradient id="cl-glow" cx="0.5" cy="0" r="0.85">
+      <stop offset="0" stop-color="#FFFDF8" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#FFFDF8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FFFDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cl-vig" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0.55" stop-color="#8A7F73" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8A7F73" stop-opacity="0.13"/>
+    </radialGradient>
+    <linearGradient id="cl-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#DFD5C6" stop-opacity="0.1"/>
+      <stop offset="0.07" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="0.93" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#DFD5C6" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="cl-div" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DFD5C6" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="0.84" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#DFD5C6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cl-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="158" fill="url(#cl-paper)"/>
+  <rect width="1200" height="158" fill="url(#cl-glow)"/>
+  <rect width="1200" height="158" fill="url(#cl-vig)"/>
+  <rect width="1200" height="158" filter="url(#cl-grain)" opacity="0.048"/>
+
+  <!-- section head -->
+  <rect x="64" y="20" width="20" height="2" fill="#B3402E"/>
+  <text x="94" y="28" font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+        font-size="12.5" letter-spacing="1" fill="#4A423B">数字一览</text>
+  <text x="158" y="28" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="9.5" letter-spacing="3" fill="#7A6F63">COLOPHON</text>
+  <text x="1136" y="28" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="9.5" letter-spacing="3" fill="#7A6F63">No. <tspan fill="#B3402E">04</tspan></text>
+  <rect x="64" y="40" width="1072" height="1" fill="url(#cl-rule)"/>
+
+  <!-- column dividers -->
+  <rect x="332" y="46" width="1" height="94" fill="url(#cl-div)"/>
+  <rect x="600" y="46" width="1" height="94" fill="url(#cl-div)"/>
+  <rect x="868" y="46" width="1" height="94" fill="url(#cl-div)"/>
+
+  <!-- figures, set in Georgia old-style numerals -->
+  <g font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+     font-size="46" fill="#14110F" text-anchor="middle">
+    <text x="198" y="90">302</text>
+    <text x="466" y="90">08</text>
+    <text x="734" y="90">04</text>
+    <text x="1002" y="90">3&#215;3</text>
+  </g>
+
+  <g font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+     font-size="13.5" letter-spacing="0.6" fill="#4A423B" text-anchor="middle">
+    <text x="198" y="117">标准健身动作</text>
+    <text x="466" y="117">部署教程星标</text>
+    <text x="734" y="117">公网插件星标</text>
+    <text x="1002" y="117">分镜关键帧</text>
+  </g>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+     font-size="8.6" letter-spacing="2.1" fill="#7A6F63" text-anchor="middle">
+    <text x="198" y="135">LIANLEME</text>
+    <text x="466" y="135">DEPLOY GUIDE</text>
+    <text x="734" y="135">DEPLOY PLUG</text>
+    <text x="1002" y="135">NINE-GRID</text>
+  </g>
+
+  <rect x="64" y="146" width="1072" height="1" fill="url(#cl-rule)"/>
+</svg>

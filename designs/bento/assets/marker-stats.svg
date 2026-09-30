@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img" aria-label="数据">
+  <title>STATS</title>
+  <defs>
+    <linearGradient id="m3p" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="m3h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="m3a" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#C4B5FD"/></linearGradient>
+    <linearGradient id="m3b" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#FBCFE8"/></linearGradient>
+    <linearGradient id="m3c" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#6EE7B7"/></linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="27" height="27" rx="9" fill="url(#m3p)"/>
+  <rect x="0.5" y="0.5" width="27" height="27" rx="9" fill="none" stroke="url(#m3h)" stroke-width="1"/>
+  <rect x="7.4"  y="15"   width="3.6" height="6"   rx="1.8" fill="url(#m3a)"/>
+  <rect x="12.2" y="11"   width="3.6" height="10"  rx="1.8" fill="url(#m3b)"/>
+  <rect x="17"   y="7.6"  width="3.6" height="13.4" rx="1.8" fill="url(#m3c)"/>
+</svg>

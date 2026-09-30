@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="konka — AI Agent 工具链 / 全栈 Web，郑州">
+  <defs>
+    <linearGradient id="bp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06121F"/>
+      <stop offset="1" stop-color="#0A1B2E"/>
+    </linearGradient>
+    <radialGradient id="bp-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="0.55" stop-color="#38BDF8" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bp-vig" cx="0.5" cy="0.44" r="0.78">
+      <stop offset="0.5" stop-color="#02080F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#02080F" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="bp-ink" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#F2F7FC"/>
+      <stop offset="0.62" stop-color="#D7E3EF"/>
+      <stop offset="1" stop-color="#93AEC7"/>
+    </linearGradient>
+    <linearGradient id="bp-panel" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#0A1D31"/>
+      <stop offset="1" stop-color="#081625"/>
+    </linearGradient>
+    <pattern id="bp-gf" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1E4B6B" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="bp-gc" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1E4B6B" stroke-width="1"/>
+    </pattern>
+    <filter id="bp-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" fill="url(#bp-bg)"/>
+  <ellipse cx="300" cy="170" rx="470" ry="240" fill="url(#bp-halo)"/>
+  <rect width="1200" height="340" fill="url(#bp-gf)" opacity="0.5"/>
+  <rect width="1200" height="340" fill="url(#bp-gc)" opacity="0.85"/>
+  <rect width="1200" height="340" fill="url(#bp-vig)"/>
+  <rect width="1200" height="340" filter="url(#bp-grain)" opacity="0.05"/>
+  <rect x="12" y="12" width="1176" height="316" fill="none" stroke="#1E4B6B" stroke-width="1" opacity="0.95"/>
+  <rect x="20" y="20" width="1160" height="300" fill="none" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+  <g stroke="#38BDF8" stroke-width="1.8" fill="none" opacity="0.9" stroke-linecap="square">
+    <path d="M20 54 V20 H54" fill="none"/>
+    <path d="M1146 20 H1180 V54" fill="none"/>
+    <path d="M20 286 V320 H54" fill="none"/>
+    <path d="M1180 286 V320 H1146" fill="none"/>
+  </g>
+  <g>
+    <line x1="80" y1="20" x2="80" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="90" y1="20" x2="90" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="100" y1="20" x2="100" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="110" y1="20" x2="110" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="120" y1="20" x2="120" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="130" y1="20" x2="130" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="140" y1="20" x2="140" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="150" y1="20" x2="150" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="160" y1="20" x2="160" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="170" y1="20" x2="170" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="180" y1="20" x2="180" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="190" y1="20" x2="190" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="200" y1="20" x2="200" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="210" y1="20" x2="210" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="220" y1="20" x2="220" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="230" y1="20" x2="230" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="240" y1="20" x2="240" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="250" y1="20" x2="250" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="260" y1="20" x2="260" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="270" y1="20" x2="270" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="280" y1="20" x2="280" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="290" y1="20" x2="290" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="300" y1="20" x2="300" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="310" y1="20" x2="310" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="320" y1="20" x2="320" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="330" y1="20" x2="330" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="340" y1="20" x2="340" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="350" y1="20" x2="350" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="360" y1="20" x2="360" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="370" y1="20" x2="370" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="380" y1="20" x2="380" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="390" y1="20" x2="390" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="400" y1="20" x2="400" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="410" y1="20" x2="410" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="420" y1="20" x2="420" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="430" y1="20" x2="430" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="440" y1="20" x2="440" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="450" y1="20" x2="450" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="460" y1="20" x2="460" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="470" y1="20" x2="470" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="480" y1="20" x2="480" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="490" y1="20" x2="490" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="500" y1="20" x2="500" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="510" y1="20" x2="510" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="520" y1="20" x2="520" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="530" y1="20" x2="530" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="540" y1="20" x2="540" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="550" y1="20" x2="550" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="560" y1="20" x2="560" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="570" y1="20" x2="570" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="580" y1="20" x2="580" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="590" y1="20" x2="590" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="600" y1="20" x2="600" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="610" y1="20" x2="610" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="620" y1="20" x2="620" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="630" y1="20" x2="630" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="640" y1="20" x2="640" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="650" y1="20" x2="650" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="660" y1="20" x2="660" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="670" y1="20" x2="670" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="680" y1="20" x2="680" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="690" y1="20" x2="690" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="700" y1="20" x2="700" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="710" y1="20" x2="710" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="720" y1="20" x2="720" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="730" y1="20" x2="730" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="740" y1="20" x2="740" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="750" y1="20" x2="750" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="760" y1="20" x2="760" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="770" y1="20" x2="770" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="780" y1="20" x2="780" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="790" y1="20" x2="790" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="800" y1="20" x2="800" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="810" y1="20" x2="810" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="820" y1="20" x2="820" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="830" y1="20" x2="830" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="840" y1="20" x2="840" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="850" y1="20" x2="850" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="860" y1="20" x2="860" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="870" y1="20" x2="870" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="880" y1="20" x2="880" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="890" y1="20" x2="890" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="900" y1="20" x2="900" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="910" y1="20" x2="910" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="920" y1="20" x2="920" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="930" y1="20" x2="930" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="940" y1="20" x2="940" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="950" y1="20" x2="950" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="960" y1="20" x2="960" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="970" y1="20" x2="970" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="980" y1="20" x2="980" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="990" y1="20" x2="990" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1000" y1="20" x2="1000" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="1010" y1="20" x2="1010" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1020" y1="20" x2="1020" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1030" y1="20" x2="1030" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1040" y1="20" x2="1040" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1050" y1="20" x2="1050" y2="27" stroke="#38BDF8" stroke-width="1" opacity="0.42"/>
+    <line x1="1060" y1="20" x2="1060" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1070" y1="20" x2="1070" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1080" y1="20" x2="1080" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1090" y1="20" x2="1090" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1100" y1="20" x2="1100" y2="30" stroke="#38BDF8" stroke-width="1.1" opacity="0.62"/>
+    <line x1="1110" y1="20" x2="1110" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+    <line x1="1120" y1="20" x2="1120" y2="24" stroke="#38BDF8" stroke-width="1" opacity="0.26"/>
+  </g>
+  <g>
+    <text x="80" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">80</text>
+    <text x="280" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">280</text>
+    <text x="480" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">480</text>
+    <text x="680" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">680</text>
+    <text x="880" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">880</text>
+    <text x="1080" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="middle" letter-spacing="0.6" fill="#7D96AF" opacity="0.6">1080</text>
+  </g>
+  <text x="24" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1" fill="#5C7A96" opacity="0.85">UNITS px</text>
+  <text x="1176" y="42.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" text-anchor="end" letter-spacing="1" fill="#5C7A96" opacity="0.85">GRID 20 / 100</text>
+  <rect x="44" y="54.2" width="15" height="1.8" fill="#38BDF8" opacity="0.9"/>
+  <text x="68" y="59" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11" letter-spacing="2.6" fill="#7D96AF">AI AGENT TOOLCHAIN · FULL-STACK WEB · PWA · THREE.JS</text>
+  <text x="34" y="178" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="148" font-weight="700" letter-spacing="9" fill="url(#bp-ink)">konka</text>
+  <text x="44" y="212" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="19" letter-spacing="1.6" fill="#CBD5E1">AI Agent 工具链 · 全栈 Web · PWA</text>
+  <line x1="44" y1="220" x2="44" y2="238" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
+    <line x1="483" y1="220" x2="483" y2="238" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
+    <line x1="44" y1="234" x2="483" y2="234" stroke="#38BDF8" stroke-width="0.9" opacity="0.6"/>
+    <path d="M44 234 l7 -2.6 v5.2 z" fill="#38BDF8" opacity="0.8"/>
+    <path d="M483 234 l-7 -2.6 v5.2 z" fill="#38BDF8" opacity="0.8"/>
+    <text x="263.5" y="229.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" text-anchor="middle" letter-spacing="1.2" fill="#7D96AF" opacity="0.95">439</text>
+  <g>
+    <rect x="620" y="56" width="536" height="180" fill="url(#bp-panel)" stroke="#1E4B6B" stroke-width="1"/>
+    <g stroke="#38BDF8" stroke-width="1.2" fill="none" opacity="0.45">
+      <path d="M630 70 V62 H638" fill="none"/>
+      <path d="M1138 62 H1146 V70" fill="none"/>
+      <path d="M630 222 V230 H638" fill="none"/>
+      <path d="M1138 230 H1146 V222" fill="none"/>
+    </g>
+    <text x="634" y="77" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="1.6" fill="#7D96AF">FIG. 1 — AGENT PIPELINE / 智能体链路</text>
+    <line x1="634" y1="86" x2="1142" y2="86" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <rect x="634" y="104" width="96" height="38" fill="#0A1D31" stroke="#1E4B6B" stroke-width="1.1"/>
+    <rect x="645" y="120.5" width="5" height="5" fill="#38BDF8" opacity="0.45"/>
+    <text x="660" y="127" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">PLAN</text>
+    <text x="721" y="116.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="7.5" text-anchor="end" letter-spacing="0.8" fill="#5C7A96">01</text>
+    <rect x="771" y="104" width="96" height="38" fill="#0C2438" stroke="#38BDF8" stroke-width="1.3"/>
+    <rect x="766" y="99" width="106" height="48" fill="none" stroke="#38BDF8" stroke-width="0.9" opacity="0.45" stroke-dasharray="4 4"/>
+    <rect x="782" y="120.5" width="5" height="5" fill="#38BDF8" opacity="1"/>
+    <text x="797" y="127" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">TOOL</text>
+    <text x="858" y="116.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="7.5" text-anchor="end" letter-spacing="0.8" fill="#5C7A96">02</text>
+    <rect x="908" y="104" width="96" height="38" fill="#0A1D31" stroke="#1E4B6B" stroke-width="1.1"/>
+    <rect x="919" y="120.5" width="5" height="5" fill="#38BDF8" opacity="0.45"/>
+    <text x="934" y="127" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">EVAL</text>
+    <text x="995" y="116.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="7.5" text-anchor="end" letter-spacing="0.8" fill="#5C7A96">03</text>
+    <rect x="1045" y="104" width="96" height="38" fill="#0A1D31" stroke="#1E4B6B" stroke-width="1.1"/>
+    <rect x="1056" y="120.5" width="5" height="5" fill="#38BDF8" opacity="0.45"/>
+    <text x="1071" y="127" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="11.5" letter-spacing="1.6" fill="#CBD5E1">SHIP</text>
+    <text x="1132" y="116.5" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="7.5" text-anchor="end" letter-spacing="0.8" fill="#5C7A96">04</text>
+    <line x1="735" y1="123" x2="763" y2="123" stroke="#38BDF8" stroke-width="1.2" opacity="0.7"/>
+    <path d="M766 123 l-6.5 -3.2 v6.4 z" fill="#38BDF8" opacity="0.85"/>
+    <line x1="872" y1="123" x2="900" y2="123" stroke="#38BDF8" stroke-width="1.2" opacity="0.7"/>
+    <path d="M903 123 l-6.5 -3.2 v6.4 z" fill="#38BDF8" opacity="0.85"/>
+    <line x1="1009" y1="123" x2="1037" y2="123" stroke="#38BDF8" stroke-width="1.2" opacity="0.7"/>
+    <path d="M1040 123 l-6.5 -3.2 v6.4 z" fill="#38BDF8" opacity="0.85"/>
+    <path d="M1093 142 V170 H682 V146" fill="none" stroke="#38BDF8" stroke-width="1.1" opacity="0.45" stroke-dasharray="5 4"/>
+    <path d="M682 144 l-3.8 8 h7.6 z" fill="#38BDF8" opacity="0.75"/>
+    <text x="1102" y="160" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.4" fill="#7D96AF">ITERATE</text>
+    <line x1="634" y1="184" x2="1142" y2="184" stroke="#1E4B6B" stroke-width="1" opacity="0.35"/>
+  </g>
+  <g>
+    <circle cx="676" cy="206" r="13" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.8"/>
+    <line x1="657" y1="206" x2="670" y2="206" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <line x1="682" y1="206" x2="695" y2="206" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <line x1="676" y1="187" x2="676" y2="200" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <line x1="676" y1="212" x2="676" y2="225" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <circle cx="676" cy="206" r="2.6" fill="#FBBF24"/>
+    <text x="712" y="202" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" letter-spacing="1.6" fill="#CBD5E1">ZHENGZHOU / CN</text>
+    <text x="712" y="221" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="1.2" fill="#7D96AF">34.75°N 113.63°E · UTC+8</text>
+    <line x1="938" y1="185" x2="938" y2="228" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <text x="950" y="193" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.4" fill="#7D96AF">ACTIVITY</text>
+    <line x1="950" y1="224" x2="1142" y2="224" stroke="#1E4B6B" stroke-width="1" opacity="0.6"/>
+    <rect x="950" y="216" width="7" height="8" rx="1" fill="#38BDF8" opacity="0.26"/>
+    <rect x="962" y="212" width="7" height="12" rx="1" fill="#38BDF8" opacity="0.2946666666666667"/>
+    <rect x="974" y="214" width="7" height="10" rx="1" fill="#38BDF8" opacity="0.32933333333333337"/>
+    <rect x="986" y="208" width="7" height="16" rx="1" fill="#38BDF8" opacity="0.364"/>
+    <rect x="998" y="211" width="7" height="13" rx="1" fill="#38BDF8" opacity="0.39866666666666667"/>
+    <rect x="1010" y="204" width="7" height="20" rx="1" fill="#38BDF8" opacity="0.43333333333333335"/>
+    <rect x="1022" y="207" width="7" height="17" rx="1" fill="#38BDF8" opacity="0.468"/>
+    <rect x="1034" y="202" width="7" height="22" rx="1" fill="#38BDF8" opacity="0.5026666666666667"/>
+    <rect x="1046" y="200" width="7" height="24" rx="1" fill="#38BDF8" opacity="0.5373333333333333"/>
+    <rect x="1058" y="195" width="7" height="29" rx="1" fill="#38BDF8" opacity="0.5720000000000001"/>
+    <rect x="1070" y="198" width="7" height="26" rx="1" fill="#38BDF8" opacity="0.6066666666666667"/>
+    <rect x="1082" y="191" width="7" height="33" rx="1" fill="#38BDF8" opacity="0.6413333333333333"/>
+    <rect x="1094" y="194" width="7" height="30" rx="1" fill="#38BDF8" opacity="0.676"/>
+    <rect x="1106" y="187" width="7" height="37" rx="1" fill="#38BDF8" opacity="0.7106666666666667"/>
+    <rect x="1118" y="190" width="7" height="34" rx="1" fill="#38BDF8" opacity="0.7453333333333334"/>
+    <rect x="1130" y="184" width="7" height="40" rx="1" fill="#38BDF8" opacity="0.78"/>
+  </g>
+  <g>
+    <line x1="1156" y1="56" x2="1176" y2="56" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
+    <line x1="1156" y1="236" x2="1176" y2="236" stroke="#7D96AF" stroke-width="0.8" opacity="0.5"/>
+    <line x1="1168" y1="56" x2="1168" y2="236" stroke="#38BDF8" stroke-width="0.9" opacity="0.55"/>
+    <path d="M1168 54 l-3.6 8 h7.2 z" fill="#38BDF8" opacity="0.8"/>
+    <path d="M1168 238 l-3.6 -8 h7.2 z" fill="#38BDF8" opacity="0.8"/>
+    <text x="1162" y="146" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" text-anchor="middle" letter-spacing="1" fill="#7D96AF" transform="rotate(-90 1162 146)">180</text>
+  </g>
+  <line x1="20" y1="246" x2="1180" y2="246" stroke="#1E4B6B" stroke-width="1" opacity="0.75"/>
+  <text x="36" y="266" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">NOTES / 备注</text>
+  <line x1="30" y1="274" x2="344" y2="274" stroke="#1E4B6B" stroke-width="1" opacity="0.35"/>
+  <rect x="36" y="281" width="4.5" height="4.5" fill="#FBBF24"/>
+  <text x="48" y="292" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" fill="#CBD5E1">「一句值得重复的箴言，</text>
+  <text x="48" y="311" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" fill="#CBD5E1">其实离一句无意义的空话并不遥远。」</text>
+  <text x="370" y="270" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">DWG NO. / 图号</text>
+    <text x="370" y="298" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="16" letter-spacing="1.4" fill="#38BDF8">K-0812</text>
+    <text x="570" y="270" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">SHEET / 图幅</text>
+    <text x="570" y="298" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="1.4" fill="#CBD5E1">01 / 05</text>
+    <line x1="552" y1="246" x2="552" y2="320" stroke="#1E4B6B" stroke-width="1" opacity="0.6"/>
+    <text x="730" y="270" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">SCALE / 比例</text>
+    <text x="730" y="298" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="1.4" fill="#CBD5E1">1:1</text>
+    <line x1="712" y1="246" x2="712" y2="320" stroke="#1E4B6B" stroke-width="1" opacity="0.6"/>
+    <text x="880" y="270" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">REV / 版本</text>
+    <rect x="880" y="287.5" width="4.5" height="4.5" fill="#FBBF24"/>
+    <text x="892" y="298" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="1.4" fill="#CBD5E1">2026.09</text>
+    <line x1="862" y1="246" x2="862" y2="320" stroke="#1E4B6B" stroke-width="1" opacity="0.6"/>
+    <text x="1040" y="270" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9" letter-spacing="1.5" fill="#5C7A96">TOL / 公差</text>
+    <text x="1040" y="298" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="1.4" fill="#CBD5E1">±0.1</text>
+    <line x1="1022" y1="246" x2="1022" y2="320" stroke="#1E4B6B" stroke-width="1" opacity="0.6"/>
+</svg>

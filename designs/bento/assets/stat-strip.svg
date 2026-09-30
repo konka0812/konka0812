@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="132" viewBox="0 0 1000 132" role="img" aria-label="konka 的开源数据：22 个公开仓库、14 颗星、主要语言 JavaScript / Python / TypeScript / Vue">
+  <title>konka · 数据便当格</title>
+  <defs>
+    <linearGradient id="s-pane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.025"/>
+    </linearGradient>
+    <linearGradient id="s-h1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.045"/>
+    </linearGradient>
+    <linearGradient id="s-h2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.19"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.045"/>
+    </linearGradient>
+    <linearGradient id="s-h3" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.19"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.045"/>
+    </linearGradient>
+    <linearGradient id="s-js"  x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#8B7BF0"/></linearGradient>
+    <linearGradient id="s-py"  x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#F9A8D4"/></linearGradient>
+    <linearGradient id="s-ts"  x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#93C5FD"/></linearGradient>
+    <linearGradient id="s-vue" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#6EE7B7"/></linearGradient>
+    <linearGradient id="s-mk"  x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/><stop offset="0.35" stop-color="#F472B6"/><stop offset="0.7" stop-color="#60A5FA"/><stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="s-gl"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.30"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s-gp"><stop offset="0" stop-color="#F472B6" stop-opacity="0.26"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s-gs"><stop offset="0" stop-color="#60A5FA" stop-opacity="0.24"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s-ge"><stop offset="0" stop-color="#34D399" stop-opacity="0.24"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s-halo"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.20"/><stop offset="0.5" stop-color="#F472B6" stop-opacity="0.07"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+    <filter id="s-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="3" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.65 0.55 0.25 0.55 0.22"/>
+    </filter>
+  </defs>
+
+  <!-- opaque charcoal base so the strip is self-contained on any GitHub theme -->
+  <rect width="1000" height="132" rx="24" fill="#0B0C10"/>
+
+  <!-- ambient mesh glow in the gutters, sitting below the tile band -->
+  <ellipse cx="500" cy="150" rx="470" ry="86" fill="url(#s-halo)"/>
+
+  <!-- tile 1 · 4,12 · 272x108 · languages -->
+  <g>
+    <rect x="4" y="12" width="272" height="108" rx="20" fill="url(#s-pane)"/>
+    <ellipse cx="70" cy="100" rx="110" ry="46" fill="url(#s-gl)" opacity="0.5"/>
+    <rect x="4.5" y="12.5" width="271" height="107" rx="19.5" fill="none" stroke="url(#s-h2)" stroke-width="1"/>
+    <rect x="28" y="34" width="3" height="64" rx="1.5" fill="url(#s-mk)"/>
+    <text x="44" y="41" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="9.5" letter-spacing="2.3" fill="#94A3B8">LANGUAGES</text>
+    <rect x="44" y="52" width="196" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.07"/>
+    <rect x="44"    y="52" width="82" height="10" rx="5" fill="url(#s-js)"/>
+    <rect x="128.5" y="52" width="59" height="10" rx="5" fill="url(#s-py)"/>
+    <rect x="190"   y="52" width="35" height="10" rx="5" fill="url(#s-ts)"/>
+    <rect x="227.5" y="52" width="12.5" height="10" rx="5" fill="url(#s-vue)"/>
+    <circle cx="47.5"  cy="80" r="4" fill="url(#s-js)"/>
+    <text x="57"  y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" fill="#94A3B8">JS 7</text>
+    <circle cx="106.5" cy="80" r="4" fill="url(#s-py)"/>
+    <text x="116" y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" fill="#94A3B8">PY 5</text>
+    <circle cx="165.5" cy="80" r="4" fill="url(#s-ts)"/>
+    <text x="175" y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" fill="#94A3B8">TS 4</text>
+    <circle cx="224.5" cy="80" r="4" fill="url(#s-vue)"/>
+    <text x="234" y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" fill="#94A3B8">VUE 3</text>
+    <text x="44" y="106" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="8.5" letter-spacing="1.2" fill="#64748B">SHELL · HTML · OTHER</text>
+  </g>
+
+  <!-- tile 2 · 288,12 · 216x108 · repos -->
+  <g>
+    <rect x="288" y="12" width="216" height="108" rx="20" fill="url(#s-pane)"/>
+    <ellipse cx="350" cy="100" rx="100" ry="42" fill="url(#s-gs)" opacity="0.5"/>
+    <rect x="288.5" y="12.5" width="215" height="107" rx="19.5" fill="none" stroke="url(#s-h3)" stroke-width="1"/>
+    <rect x="312" y="34" width="3" height="64" rx="1.5" fill="url(#s-mk)"/>
+    <text x="328" y="41" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="9.5" letter-spacing="2.3" fill="#94A3B8">PUBLIC REPOS</text>
+    <text x="326" y="92" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif"
+          font-size="40" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">22</text>
+    <text x="372" y="90" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+          font-size="12" fill="#94A3B8">个开源仓库</text>
+    <text x="328" y="108" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="8.5" letter-spacing="1.2" fill="#64748B">ALL PUBLIC · NO FORKS</text>
+  </g>
+
+  <!-- tile 3 · 520,12 · 216x108 · stars -->
+  <g>
+    <rect x="520" y="12" width="216" height="108" rx="20" fill="url(#s-pane)"/>
+    <ellipse cx="582" cy="100" rx="100" ry="42" fill="url(#s-gp)" opacity="0.5"/>
+    <rect x="520.5" y="12.5" width="215" height="107" rx="19.5" fill="none" stroke="url(#s-h3)" stroke-width="1"/>
+    <rect x="544" y="34" width="3" height="64" rx="1.5" fill="url(#s-mk)"/>
+    <text x="560" y="41" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="9.5" letter-spacing="2.3" fill="#94A3B8">TOTAL STARS</text>
+    <circle cx="560" cy="76" r="5" fill="#FBBF24"/>
+    <text x="572" y="92" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif"
+          font-size="40" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">14</text>
+    <text x="618" y="90" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+          font-size="12" fill="#94A3B8">颗星星</text>
+    <text x="560" y="108" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="8.5" letter-spacing="1.2" fill="#64748B">8 + 4 + 2 · TOP REPO 8★</text>
+  </g>
+
+  <!-- tile 4 · 752,12 · 244x108 · since -->
+  <g>
+    <rect x="752" y="12" width="244" height="108" rx="20" fill="url(#s-pane)"/>
+    <ellipse cx="818" cy="100" rx="104" ry="42" fill="url(#s-ge)" opacity="0.5"/>
+    <rect x="752.5" y="12.5" width="243" height="107" rx="19.5" fill="none" stroke="url(#s-h2)" stroke-width="1"/>
+    <rect x="776" y="34" width="3" height="64" rx="1.5" fill="url(#s-mk)"/>
+    <text x="792" y="41" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="9.5" letter-spacing="2.3" fill="#94A3B8">OPEN SOURCE SINCE</text>
+    <text x="790" y="92" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif"
+          font-size="34" font-weight="700" letter-spacing="-1.2" fill="#F8FAFC">2026</text>
+    <text x="878" y="90" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+          font-size="12" fill="#94A3B8">郑州</text>
+    <text x="792" y="108" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+          font-size="8.5" letter-spacing="1.2" fill="#64748B">LATEST PUSH · 2026-09</text>
+  </g>
+
+  <rect x="4" y="12" width="992" height="108" filter="url(#s-grain)" opacity="0.035"/>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-label="telemetry readout">
+  <defs>
+    <linearGradient id="tm-bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#06121F"/>
+      <stop offset="1" stop-color="#0A1B2E"/>
+    </linearGradient>
+    <pattern id="tm-gf" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1E4B6B" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="tm-gc" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1E4B6B" stroke-width="1"/>
+    </pattern>
+    <filter id="tm-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="126" fill="url(#tm-bg)"/>
+  <rect width="1200" height="126" fill="url(#tm-gf)" opacity="0.35"/>
+  <rect width="1200" height="126" fill="url(#tm-gc)" opacity="0.6"/>
+  <rect x="0.5" y="0.5" width="1199" height="125" fill="none" stroke="#1E4B6B" stroke-width="1" opacity="0.9"/>
+  <g stroke="#38BDF8" stroke-width="1.4" fill="none" opacity="0.8" stroke-linecap="square">
+    <path d="M10 26 V10 H26" fill="none"/>
+    <path d="M1174 10 H1190 V26" fill="none"/>
+    <path d="M10 100 V116 H26" fill="none"/>
+    <path d="M1174 116 H1190 V100" fill="none"/>
+  </g>
+  <g>
+    <text x="22" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">SOURCE</text>
+    <text x="22" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">README-STATS</text>
+    <text x="22" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">github-readme-stats.vercel.app</text>
+    <rect x="22" y="104" width="196" height="3" fill="#12304A"/>
+    <rect x="22" y="104" width="141.12" height="3" fill="#38BDF8" opacity="0.75"/>
+    <line x1="240" y1="14" x2="240" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <text x="262" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">CACHE</text>
+    <text x="262" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">≈ 24 H</text>
+    <text x="262" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">edge render · auto refresh</text>
+    <rect x="262" y="104" width="196" height="3" fill="#12304A"/>
+    <rect x="262" y="104" width="88.2" height="3" fill="#38BDF8" opacity="0.75"/>
+    <line x1="480" y1="14" x2="480" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <text x="502" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">UPLINK</text>
+    <rect x="568" y="66" width="5" height="5" fill="#38BDF8" opacity="0.9"/>
+    <text x="502" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">STABLE</text>
+    <text x="502" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">camo proxy · image only</text>
+    <rect x="502" y="104" width="196" height="3" fill="#12304A"/>
+    <rect x="502" y="104" width="176.4" height="3" fill="#38BDF8" opacity="0.75"/>
+    <line x1="720" y1="14" x2="720" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <text x="742" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">LOCALE</text>
+    <text x="742" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">ZHENGZHOU</text>
+    <text x="742" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">34.75°N 113.63°E</text>
+    <rect x="742" y="104" width="196" height="3" fill="#12304A"/>
+    <rect x="742" y="104" width="117.6" height="3" fill="#38BDF8" opacity="0.75"/>
+    <line x1="960" y1="14" x2="960" y2="118" stroke="#1E4B6B" stroke-width="1" opacity="0.5"/>
+    <text x="982" y="40" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8.5" letter-spacing="1.6" fill="#5C7A96">RENDER</text>
+    <text x="982" y="78" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15" letter-spacing="1.2" fill="#CBD5E1">SVG · NO JS</text>
+    <text x="982" y="94" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="8" letter-spacing="0.8" fill="#5C7A96">self-contained · static</text>
+    <rect x="982" y="104" width="196" height="3" fill="#12304A"/>
+    <rect x="982" y="104" width="166.6" height="3" fill="#38BDF8" opacity="0.75"/>
+  </g>
+  <rect width="1200" height="126" filter="url(#tm-grain)" opacity="0.045"/>
+</svg>

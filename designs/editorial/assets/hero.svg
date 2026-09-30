@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="konka — 郑州 · 编辑排版式个人主页封面">
+  <defs>
+    <linearGradient id="ed-paper" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FBF8F3"/>
+      <stop offset="0.52" stop-color="#FAF7F2"/>
+      <stop offset="1" stop-color="#F0E7D9"/>
+    </linearGradient>
+
+    <radialGradient id="ed-glow" cx="0.12" cy="0.04" r="0.92">
+      <stop offset="0" stop-color="#FFFDF8" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#FFFDF8" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FFFDF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ed-vig" cx="0.54" cy="0.44" r="0.74">
+      <stop offset="0.5" stop-color="#8A7F73" stop-opacity="0"/>
+      <stop offset="0.82" stop-color="#8A7F73" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#8A7F73" stop-opacity="0.16"/>
+    </radialGradient>
+
+    <linearGradient id="ed-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#DFD5C6" stop-opacity="0.12"/>
+      <stop offset="0.08" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="0.92" stop-color="#DFD5C6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#DFD5C6" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <filter id="ed-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1200" height="340" fill="url(#ed-paper)"/>
+  <rect width="1200" height="340" fill="url(#ed-glow)"/>
+  <rect width="1200" height="340" fill="url(#ed-vig)"/>
+  <rect width="1200" height="340" filter="url(#ed-grain)" opacity="0.048"/>
+
+  <!-- printed page frame -->
+  <rect x="26" y="18" width="1148" height="304" fill="none" stroke="#DFD5C6" stroke-width="1"/>
+  <rect x="32" y="24" width="1136" height="292" fill="none" stroke="#DFD5C6" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- running head -->
+  <text x="64" y="48" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="11.5" letter-spacing="3.4" fill="#7A6F63">PORTFOLIO — 2026</text>
+  <text x="1136" y="48" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="11.5" letter-spacing="3.4" fill="#7A6F63">No. <tspan fill="#B3402E">01</tspan></text>
+
+  <rect x="64" y="68" width="1072" height="1" fill="url(#ed-rule)"/>
+
+  <!-- ghosted issue numeral, printed under the type -->
+  <text x="590" y="258" text-anchor="middle" font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+        font-size="162" fill="#14110F" opacity="0.052">壹</text>
+
+  <!-- masthead -->
+  <text x="64" y="212" font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+        font-size="158" letter-spacing="-6" fill="#14110F">konka</text>
+  <rect x="482" y="198" width="11" height="11" fill="#B3402E"/>
+
+  <text x="64" y="252" font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+        font-size="19.5" letter-spacing="0.5" fill="#4A423B">工具、网页，和一些没什么用但好看的东西。</text>
+
+  <!-- contents -->
+  <text x="700" y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="9.5" letter-spacing="3" fill="#7A6F63">CONTENTS</text>
+  <text x="1136" y="84" text-anchor="end" font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+        font-size="12.5" letter-spacing="2" fill="#7A6F63">目录</text>
+  <rect x="700" y="96" width="436" height="1" fill="#DFD5C6"/>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="1.6">
+    <text x="716" y="120" text-anchor="end" fill="#B3402E">01</text>
+    <text x="716" y="150" text-anchor="end" fill="#B3402E">02</text>
+    <text x="716" y="180" text-anchor="end" fill="#B3402E">03</text>
+    <text x="716" y="210" text-anchor="end" fill="#B3402E">04</text>
+    <text x="716" y="240" text-anchor="end" fill="#B3402E">05</text>
+    <text x="1136" y="120" text-anchor="end" fill="#7A6F63">ABOUT</text>
+    <text x="1136" y="150" text-anchor="end" fill="#7A6F63">STACK</text>
+    <text x="1136" y="180" text-anchor="end" fill="#7A6F63">SELECTED WORK</text>
+    <text x="1136" y="210" text-anchor="end" fill="#7A6F63">NUMBERS</text>
+    <text x="1136" y="240" text-anchor="end" fill="#7A6F63">CONTACT</text>
+  </g>
+
+  <g font-family="Georgia, Cambria, Times New Roman, Songti SC, SimSun, Noto Serif SC, serif"
+     font-size="15.5" fill="#14110F">
+    <text x="734" y="120">关于</text>
+    <text x="734" y="150">技术栈</text>
+    <text x="734" y="180">精选项目</text>
+    <text x="734" y="210">数据</text>
+    <text x="734" y="240">联系</text>
+  </g>
+
+  <g stroke="#CFC2AF" stroke-width="1.2" stroke-dasharray="1.6 6" stroke-linecap="round" opacity="0.9">
+    <line x1="786" y1="116" x2="1092" y2="116"/>
+    <line x1="802" y1="146" x2="1092" y2="146"/>
+    <line x1="818" y1="176" x2="1032" y2="176"/>
+    <line x1="786" y1="206" x2="1077" y2="206"/>
+    <line x1="786" y1="236" x2="1077" y2="236"/>
+  </g>
+
+  <rect x="700" y="262" width="436" height="1" fill="#DFD5C6"/>
+
+  <rect x="64" y="280" width="1072" height="1" fill="url(#ed-rule)"/>
+
+  <!-- folio line -->
+  <text x="64" y="302" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="11.5" letter-spacing="2.6" fill="#4A423B">@konka0812</text>
+  <text x="600" y="302" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="11.5" letter-spacing="2.6" fill="#7A6F63">ZHENGZHOU · CHINA</text>
+  <text x="1136" y="302" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
+        font-size="11.5" letter-spacing="2.6" fill="#7A6F63">AI AGENT · FULL-STACK · 3D WEB</text>
+</svg>
