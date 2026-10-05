@@ -7,8 +7,13 @@ name: Update profile stats card
 
 on:
   schedule:
-    # 03:17 UTC every Monday — off the hour to avoid the cron stampede
-    - cron: '17 3 * * 1'
+    # Daily at 03:17 UTC (11:17 Beijing). Weekly was too sparse in practice:
+    # GitHub silently delays or drops scheduled runs, and the very first
+    # Monday slot produced no run at all, leaving the card stale for a week.
+    # Daily gives 7 chances, and `push` below is the real safety net.
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -42,5 +47,6 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/stats.svg
+          # [skip ci] stops this commit from re-triggering the `push` rule above
           git commit -m "chore(stats): refresh stats card [skip ci]"
           git push
